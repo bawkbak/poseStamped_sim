@@ -14,7 +14,7 @@ int main (int argc, char **argv)
 
      std::stringstream ss;
      ss << "testing poseStamped";
-     msg.header.frame_id = ss.str();msg
+     msg.header.frame_id = ss.str();
      msg.pose.position.x = 5.0;
      msg.pose.position.y = 6.0;
      msg.pose.position.z = 0.1;
